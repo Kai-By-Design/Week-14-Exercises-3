@@ -1,14 +1,24 @@
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// import './index.css';
+// import '../bootstrap/dist/css/bootstrap.css'
+// import Container from './components/container'
+// import App from './App';
+// import reportWebVitals from './reportWebVitals';
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
+// import App from './App';
+import Container from './components/container';
+import SecondCounterContainer from './components/second-counter-container';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <SecondCounterContainer />,
 );
 
 // If you want to start measuring performance in your app, pass a function
